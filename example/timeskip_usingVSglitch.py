@@ -6,8 +6,8 @@ ctr = Controller()
 # Cursor on SystemSettings-->System-->Date and Time-->Date and Time
 # 先触发vs断网跳帧的bug，然后进入设置-->主机-->日期与时间-->现在的日期与时间，光标停留在日期和时间上
 
-#Input current date 输入当前日期
-currentDate= datetime.date(2020,2,21) # (year,month,day) switch机器当前日期
+#Input current date of your Switch 输入当前日期
+currentDate= datetime.date(2020,2,21) # input date(year,month,day) 输入switch机器当前日期(年，月，日)
 frames_num = 99 # Number of frames to go forward  需前进帧数
 
 
