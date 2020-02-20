@@ -1,7 +1,7 @@
 from NSController import Controller
 ctr = Controller()
 #先触发vs断网跳帧的bug，然后进入设置-->日期与时间，光标停留在日期和时间上
-for i in range(1,7350):#示例：跳至7558帧
+for i in range(1,7350):#示例：跳至7350帧
     if(i%200 == 0):#每跳200帧存档1次
         ctr.h()
         ctr.pause(2)
